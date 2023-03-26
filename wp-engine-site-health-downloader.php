@@ -56,8 +56,8 @@ function shid_download_file() {
     // $wp_plugins_list = list_wp_plugins(); // doesn't work
 
     // Create string of data
-
-    $data = 'WordPress Core Version: ' . $wp_version . "\n\n";
+    $data = 'URL : ' . $wordpress_url . "\n\n";	
+    $data .= 'WordPress Core Version: ' . $wp_version . "\n\n";
     $data .= 'Active Theme: ' . $active_theme . "\n\n";
     // $data .= 'Active Plugins: ' . implode(', ', $active_plugins) . "\n\n";
     // $data .= 'Inactive Plugins: ' . implode(', ', $inactive_plugins) . "\n\n";
