@@ -128,7 +128,7 @@ function shid_download_file() {
 
     $data .= "\n====================================================\n\n";
       
-    // Using the free Similar Rank API endpoint - hardcoding API key for ease of use
+    // Using the free Similar Rank API endpoint - hardcoding API key for ease of use, please replace with your own if you have one to avoid risk of rate limiting
     $data .= "SimilarWeb Site Rank API Data:\n\n";
 	
     $curl = curl_init();
